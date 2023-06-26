@@ -1,0 +1,81 @@
+.page-mvc {
+  height: 600px;
+}
+
+.div-text {
+  font-size: 2em;
+  width: 50%;
+  font-family: Impact;
+  letter-spacing: 3px;
+  white-space: pre-wrap;
+  color: cornflowerblue;
+  text-align: right;
+  min-width: 400px;
+  line-height: 1em;
+}
+
+
+@media (max-width: 1160px) {
+  .div-text {
+    font-size: 1.4em;
+    line-height: 1em;
+  }
+}
+
+.div-text span.my-name {
+  color: gold;
+}
+
+.div-text span.direction {
+  color: #d53c3c;
+}
+
+.info-text {
+  font-family: Geneva;
+  letter-spacing: 3px;
+  color: #d53c3c !important;
+}
+
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.remove-underline {
+  text-decoration: none;
+}
+
+.arrow-right {
+  font-size: 72px;
+}
+
+.first-background {
+  background: #023;
+}
+
+.mod-c {
+  color: mediumaquamarine;
+}
+
+.mod-m {
+  color: rgb(130, 113, 255)
+  /* mediumvioletred; */
+}
+
+.mod-v {
+  color: tan;
+}
+
+.cards {
+  font-size: 1.3em;
+}
+
+.img-ide {
+  max-width: 480px;
+}
+
+.rspec-text {
+  color: #155263;
+}
